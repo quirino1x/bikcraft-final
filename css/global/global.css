@@ -13,8 +13,21 @@ p {
   padding: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
 img {
   max-width: 100%;
   display: block;
+}
+
+[src$=".jpg"] {
   border-radius: 5px;
 }

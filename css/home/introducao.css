@@ -3,9 +3,9 @@
   box-shadow: inset 0px -120px var(--cor-0);
 }
 
-.introducao-text span {
+/* .introducao-text span {
   color: var(--cor-p1);
-}
+} */
 
 .introducao-text {
   display: grid;
