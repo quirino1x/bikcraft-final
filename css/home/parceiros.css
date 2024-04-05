@@ -1,0 +1,31 @@
+.parceiros-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.co-lab {
+  padding: 60px 120px;
+}
+
+.parceiros h2 {
+  margin-bottom: 60px;
+}
+
+.parceiros li {
+  display: flex;
+  padding: 32px;
+  border-left: 2px solid var(--cor-2);
+}
+
+.parceiros li:first-child,
+:nth-child(5) {
+  border-left: none;
+}
+
+.parceiros li:nth-child(n + 5) {
+  border-top: 2px solid var(--cor-2);
+}
+
+.parceiros img {
+  margin: auto;
+}
