@@ -25,6 +25,16 @@
   margin-left: auto;
 }
 
+.botao.secundario:hover {
+  background: var(--cor-9);
+}
+
+.botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+  transition: ease-out 0.7s;
+}
+
 .botao {
   text-decoration: none;
   color: var(--cor-12);
@@ -38,6 +48,7 @@
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.5;
+  max-width: max-content;
 }
 
 .botao:hover {
